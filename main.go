@@ -4,6 +4,7 @@ import (
 	"advent-of-code-2023/day1"
 	"advent-of-code-2023/day2"
 	"advent-of-code-2023/day3"
+	"advent-of-code-2023/day4"
 	"fmt"
 )
 
@@ -29,4 +30,11 @@ func main() {
 
 	day3twoResult := day3.Two("day3/input_data")
 	fmt.Println("Day 3.2: ", day3twoResult)
+
+	//day4
+	day4oneResult := day4.One("day4/input_data")
+	fmt.Println("Day 4.1: ", day4oneResult)
+
+	day4twoResult := day4.Two("day4/input_data")
+	fmt.Println("Day 4.2: ", day4twoResult)
 }
